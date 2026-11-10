@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hoca · İngilizce Sınıfı</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <div id="stage"></div>
+
+  <div id="hud">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">H</span> Hoca <span class="brand-sub">· Ms. Clara'nın sınıfı</span></div>
+      <span id="mode" class="badge">…</span>
+      <span id="status" class="status">bağlanıyor</span>
+    </header>
+
+    <aside id="report" class="card paper">
+      <div class="report-head">
+        <div>
+          <div class="label">Karne</div>
+          <div id="student-name" class="student-name">Yeni öğrenci</div>
+        </div>
+        <div class="level-chip" id="cefr" title="CEFR seviyesi">?</div>
+      </div>
+      <div class="xp">
+        <div class="xp-row"><span>Seviye <b id="xp-level">1</b></span><span id="xp-text">0 / 100 XP</span></div>
+        <div class="bar"><div id="xp-bar" class="bar-fill xp-fill"></div></div>
+      </div>
+      <div id="skills" class="skills"></div>
+      <div class="report-foot"><span id="word-count">0 kelime</span><span id="due-count"></span></div>
+    </aside>
+
+    <div id="bubble" class="bubble" hidden>
+      <div class="bubble-name">Ms. Clara</div>
+      <div id="bubble-text" class="bubble-text"></div>
+      <div id="dots" class="dots" hidden><i></i><i></i><i></i></div>
+    </div>
+
+    <div id="correction" class="correction" hidden>
+      <div class="correction-title">Kırmızı kalem</div>
+      <div id="corr-original" class="corr-original"></div>
+      <div id="corr-fixed" class="corr-fixed"></div>
+      <div id="corr-why" class="corr-why"></div>
+    </div>
+
+    <div id="toasts" class="toasts"></div>
+
+    <section id="dock">
+      <div id="question" class="question paper" hidden>
+        <div class="q-kind" id="q-kind"></div>
+        <div class="q-prompt" id="q-prompt"></div>
+        <div class="q-hint" id="q-hint"></div>
+        <div class="q-options" id="q-options"></div>
+      </div>
+      <form id="composer" class="composer" autocomplete="off">
+        <button type="button" id="log-btn" class="icon-btn" title="Defter (sohbet geçmişi)" aria-label="Defteri aç">
+          <svg viewBox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4z"/><path d="M5 17a3 3 0 0 1 3-3h11"/></svg>
+        </button>
+        <textarea id="input" rows="1" placeholder="İngilizce yaz, Enter'a bas…"></textarea>
+        <button type="button" id="mic-btn" class="icon-btn mic" title="Mikrofon: konuşarak cevap ver" aria-label="Mikrofon">
+          <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+        </button>
+        <button type="button" id="sound-btn" class="icon-btn" title="Öğretmenin sesi açık" aria-label="Ses">
+          <svg viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path id="sound-wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/></svg>
+        </button>
+        <button type="submit" class="send-btn">Gönder</button>
+      </form>
+    </section>
+
+    <aside id="log" class="drawer paper" hidden>
+      <div class="drawer-head"><span>Defter</span><button type="button" id="log-close" class="icon-btn small" aria-label="Kapat">✕</button></div>
+      <div id="log-list" class="log-list"></div>
+    </aside>
+  </div>
+
+  <div id="splash" class="splash">
+    <div class="splash-card paper">
+      <div class="splash-mark">H</div>
+      <h1>Hoca</h1>
+      <p>Ms. Clara seni sınıfta bekliyor. Tahtaya yazacak, sırana soru kartları bırakacak, hatalarını kırmızı kalemle düzeltecek.</p>
+      <ul>
+        <li><b>Yazarak:</b> alttaki kutuya İngilizce yaz, Enter'a bas.</li>
+        <li><b>Konuşarak:</b> mikrofon tuşuna bas ve söyle (Chrome / Edge).</li>
+        <li>Fareyi gezdirerek sınıfta etrafa bakabilirsin.</li>
+      </ul>
+      <button id="enter-btn" class="enter-btn">Sınıfa gir</button>
+      <div id="splash-mode" class="splash-mode"></div>
+    </div>
+  </div>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

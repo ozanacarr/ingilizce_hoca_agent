@@ -1,0 +1,10 @@
+.venv/
+# API anahtarı burada durur, asla paylaşma
+.env
+__pycache__/
+*.pyc
+# öğrenci hafızası kişisel veridir
+data/student.json
+data/student_demo.json
+data/*.tmp
+data/claude_workspace/

@@ -1,0 +1,3 @@
+# Başlatma betikleri her işletim sisteminde doğru satır sonuyla insin
+*.sh  text eol=lf
+*.bat text eol=crlf

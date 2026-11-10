@@ -1,0 +1,21 @@
+{
+  "_note": "Başlangıç kelime listesi (seviye ve temaya göre). Öğretmen yeni kelime seçerken buradan yararlanır, ama derste çıkan başka kelimeleri de ekleyebilir.",
+  "A1": {
+    "greetings": ["hello", "goodbye", "please", "thank you", "sorry", "name", "friend"],
+    "family": ["mother", "father", "brother", "sister", "parents", "child", "married"],
+    "daily routine": ["wake up", "breakfast", "work", "lunch", "dinner", "sleep", "usually"],
+    "food": ["bread", "water", "cheese", "apple", "hungry", "delicious", "cook"]
+  },
+  "A2": {
+    "travel": ["ticket", "airport", "luggage", "abroad", "journey", "book (a hotel)", "delay"],
+    "shopping": ["cheap", "expensive", "receipt", "size", "discount", "try on", "cash"],
+    "health": ["headache", "medicine", "appointment", "fever", "healthy", "rest", "pharmacy"],
+    "hobbies": ["hiking", "painting", "collect", "instrument", "free time", "enjoy", "team"]
+  },
+  "B1": {
+    "experiences": ["experience", "already", "yet", "ever", "never", "recently", "achievement"],
+    "work and career": ["deadline", "colleague", "promotion", "salary", "skill", "manage", "interview"],
+    "technology": ["device", "update", "download", "privacy", "reliable", "artificial intelligence", "software"],
+    "opinions": ["in my opinion", "I agree", "I disagree", "however", "although", "convince", "point of view"]
+  }
+}

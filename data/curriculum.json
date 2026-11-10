@@ -1,0 +1,57 @@
+{
+  "_note": "CEFR seviyelerine göre özet müfredat. Öğretmen konu seçerken buna bakar. Konu eklemek için ilgili seviyeye yeni bir öğe ekle.",
+  "levels": {
+    "A1": {
+      "can_do": [
+        "Kendini ve aileni basit cümlelerle tanıtabilir",
+        "Günlük rutinini anlatabilir",
+        "Basit sorular sorup cevaplayabilir (isim, yaş, nereli, ne iş yapıyor)"
+      ],
+      "grammar": [
+        {"id": "a1_to_be", "title": "Verb 'to be' (am / is / are)", "key_points": ["I am, you are, he/she/it is", "Olumsuz: isn't / aren't", "Soru: Are you...? Is he...?"]},
+        {"id": "a1_present_simple", "title": "Present Simple", "key_points": ["Alışkanlık ve genel doğrular", "he/she/it -> fiile -s", "do / does ile soru ve olumsuz"]},
+        {"id": "a1_articles", "title": "Articles: a / an / the", "key_points": ["a + ünsüz sesi, an + ünlü sesi", "the = ikimizin de bildiği şey", "Türkçede artikel yok, bu yüzden sık unutulur"]},
+        {"id": "a1_there_is", "title": "There is / There are", "key_points": ["Bir şeyin var olduğunu söylemek", "Tekil: there is, çoğul: there are"]},
+        {"id": "a1_can", "title": "Can / Can't", "key_points": ["Yetenek ve izin", "can + fiilin yalın hali (to yok)"]}
+      ],
+      "themes": ["greetings", "family", "daily routine", "food", "numbers and time"]
+    },
+    "A2": {
+      "can_do": [
+        "Geçmişte yaşadığı olayları anlatabilir",
+        "Gelecek planlarından bahsedebilir",
+        "Alışveriş, yol sorma gibi günlük işlerini halledebilir"
+      ],
+      "grammar": [
+        {"id": "a2_past_simple", "title": "Past Simple", "key_points": ["Bitmiş, zamanı belli geçmiş", "Düzenli fiil -ed, düzensiz fiiller (went, saw, ate)", "did ile soru: Did you go...?"]},
+        {"id": "a2_present_continuous", "title": "Present Continuous", "key_points": ["Şu an olan şey: I am working", "Yakın gelecek planı: I'm meeting him tomorrow"]},
+        {"id": "a2_going_to", "title": "Be going to / will", "key_points": ["going to = önceden verilmiş karar", "will = anlık karar, tahmin, söz"]},
+        {"id": "a2_comparatives", "title": "Comparatives & Superlatives", "key_points": ["kısa sıfat: bigger, the biggest", "uzun sıfat: more expensive, the most expensive"]},
+        {"id": "a2_prepositions_time", "title": "Prepositions of time: in / on / at", "key_points": ["at + saat", "on + gün/tarih", "in + ay/yıl/mevsim"]}
+      ],
+      "themes": ["travel", "shopping", "health", "weekend plans", "hobbies"]
+    },
+    "B1": {
+      "can_do": [
+        "Deneyimlerini ve hayallerini anlatabilir",
+        "Fikrini kısa gerekçelerle savunabilir",
+        "Bir film ya da kitabın konusunu özetleyebilir"
+      ],
+      "grammar": [
+        {"id": "b1_present_perfect", "title": "Present Perfect vs Past Simple", "key_points": ["have/has + V3: zamanı önemli değil, sonucu şimdi", "ever / never / already / yet / just", "Zaman belirtiliyorsa (yesterday, in 2020) Past Simple"]},
+        {"id": "b1_first_conditional", "title": "First Conditional", "key_points": ["If + present, will + fiil", "Gerçek olası durumlar"]},
+        {"id": "b1_second_conditional", "title": "Second Conditional", "key_points": ["If + past, would + fiil", "Hayali durumlar: If I were rich..."]},
+        {"id": "b1_passive", "title": "Passive Voice", "key_points": ["be + V3", "Eylemi yapan önemli değilse"]},
+        {"id": "b1_used_to", "title": "Used to", "key_points": ["Geçmişteki ama artık olmayan alışkanlık", "I used to play football"]}
+      ],
+      "themes": ["work and career", "technology", "experiences", "opinions", "environment"]
+    }
+  },
+  "lesson_flow": [
+    "1. Isınma: kısa sohbet ve vadesi gelen kelimelerin tekrarı",
+    "2. Sunum: konuyu tahtaya yaz, 2-3 örnekle açıkla",
+    "3. Kontrollü alıştırma: çoktan seçmeli veya boşluk doldurma",
+    "4. Serbest üretim: öğrenci kendi cümlelerini kursun, konuşsun",
+    "5. Kapanış: ders özeti, yeni kelimeler, XP"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "_note": "Seviye tespit soru bankası. Sorular CEFR (Avrupa Ortak Dil Çerçevesi, Council of Europe) seviye tanımlarına ve seviyelere göre gramer/kelime hedeflerine göre hazırlandı. Kurumların (Cambridge, British Council vb.) kendi sınav soruları telifli olduğu için birebir kopyalanmadı; her soru bir seviyeye ve konuya etiketli. Soru eklemek için ilgili seviyeye aynı biçimde yeni öğe ekle. 'answer' options içindeki doğru seçeneğin aynısıdır.",
+  "source": "CEFR seviye tanımları (Council of Europe) ve seviyeye göre dilbilgisi hedefleri",
+  "levels": ["A1", "A2", "B1", "B2", "C1"],
+  "questions": [
+    {"id": "a1_1", "level": "A1", "topic": "to_be", "prompt": "My brother __ a teacher.", "options": ["am", "is", "are", "be"], "answer": "is"},
+    {"id": "a1_2", "level": "A1", "topic": "present_simple", "prompt": "She __ coffee every morning.", "options": ["drink", "drinks", "drinking", "is drink"], "answer": "drinks"},
+    {"id": "a1_3", "level": "A1", "topic": "articles", "prompt": "I have __ apple in my bag.", "options": ["a", "an", "the", "-"], "answer": "an"},
+    {"id": "a1_4", "level": "A1", "topic": "there_is", "prompt": "__ two cats in the garden.", "options": ["There is", "There are", "It is", "They is"], "answer": "There are"},
+    {"id": "a1_5", "level": "A1", "topic": "can", "prompt": "__ you swim?", "options": ["Do", "Are", "Can", "Does"], "answer": "Can"},
+    {"id": "a1_6", "level": "A1", "topic": "plural", "prompt": "I have three __.", "options": ["brother", "brothers", "brotheres", "a brother"], "answer": "brothers"},
+
+    {"id": "a2_1", "level": "A2", "topic": "past_simple", "prompt": "We __ to Izmir last summer.", "options": ["go", "goes", "went", "have gone"], "answer": "went"},
+    {"id": "a2_2", "level": "A2", "topic": "past_simple", "prompt": "__ you see the match yesterday?", "options": ["Do", "Did", "Were", "Have"], "answer": "Did"},
+    {"id": "a2_3", "level": "A2", "topic": "present_continuous", "prompt": "Be quiet! The baby __.", "options": ["sleeps", "is sleeping", "sleep", "slept"], "answer": "is sleeping"},
+    {"id": "a2_4", "level": "A2", "topic": "comparatives", "prompt": "Ankara is __ than Bursa.", "options": ["big", "bigger", "biggest", "more big"], "answer": "bigger"},
+    {"id": "a2_5", "level": "A2", "topic": "prepositions", "prompt": "The meeting is __ Monday.", "options": ["in", "at", "on", "by"], "answer": "on"},
+    {"id": "a2_6", "level": "A2", "topic": "going_to", "prompt": "Look at those clouds. It __ rain.", "options": ["is going to", "will to", "going", "is rain"], "answer": "is going to"},
+
+    {"id": "b1_1", "level": "B1", "topic": "present_perfect", "prompt": "I __ this film three times.", "options": ["saw", "have seen", "have saw", "am seeing"], "answer": "have seen"},
+    {"id": "b1_2", "level": "B1", "topic": "present_perfect", "prompt": "She has lived here __ 2019.", "options": ["for", "since", "from", "ago"], "answer": "since"},
+    {"id": "b1_3", "level": "B1", "topic": "first_conditional", "prompt": "If it rains tomorrow, we __ at home.", "options": ["stay", "will stay", "would stay", "stayed"], "answer": "will stay"},
+    {"id": "b1_4", "level": "B1", "topic": "used_to", "prompt": "I __ play football when I was a child.", "options": ["use to", "used to", "was used to", "am used to"], "answer": "used to"},
+    {"id": "b1_5", "level": "B1", "topic": "passive", "prompt": "This bridge __ in 1973.", "options": ["built", "was built", "is building", "has build"], "answer": "was built"},
+    {"id": "b1_6", "level": "B1", "topic": "gerund_infinitive", "prompt": "I enjoy __ books in the evening.", "options": ["read", "to read", "reading", "reads"], "answer": "reading"},
+
+    {"id": "b2_1", "level": "B2", "topic": "second_conditional", "prompt": "If I __ more time, I would learn Japanese.", "options": ["have", "had", "would have", "will have"], "answer": "had"},
+    {"id": "b2_2", "level": "B2", "topic": "past_perfect", "prompt": "When we arrived, the train __.", "options": ["already left", "has already left", "had already left", "was already leaving"], "answer": "had already left"},
+    {"id": "b2_3", "level": "B2", "topic": "reported_speech", "prompt": "He told me that he __ tired.", "options": ["is", "was", "has", "be"], "answer": "was"},
+    {"id": "b2_4", "level": "B2", "topic": "relative_clauses", "prompt": "The woman __ car was stolen called the police.", "options": ["who", "which", "whose", "whom"], "answer": "whose"},
+    {"id": "b2_5", "level": "B2", "topic": "modals_deduction", "prompt": "He isn't answering. He __ be asleep.", "options": ["must", "can't", "should to", "has"], "answer": "must"},
+    {"id": "b2_6", "level": "B2", "topic": "collocations", "prompt": "We need to __ a decision today.", "options": ["do", "make", "take up", "get"], "answer": "make"},
+
+    {"id": "c1_1", "level": "C1", "topic": "third_conditional", "prompt": "If you had told me earlier, I __ you.", "options": ["would help", "will have helped", "would have helped", "had helped"], "answer": "would have helped"},
+    {"id": "c1_2", "level": "C1", "topic": "inversion", "prompt": "Not only __ late, but he also forgot the tickets.", "options": ["he was", "was he", "he has been", "did he was"], "answer": "was he"},
+    {"id": "c1_3", "level": "C1", "topic": "wish", "prompt": "I wish I __ that email. It was a mistake.", "options": ["didn't send", "hadn't sent", "wouldn't send", "don't send"], "answer": "hadn't sent"},
+    {"id": "c1_4", "level": "C1", "topic": "advanced_vocabulary", "prompt": "The new policy had a __ effect on small businesses.", "options": ["profound", "deep-rooted", "thorough", "wide"], "answer": "profound"},
+    {"id": "c1_5", "level": "C1", "topic": "participle_clauses", "prompt": "__ the report, she sent it to her manager.", "options": ["Finished", "Having finished", "To finish", "She finished"], "answer": "Having finished"},
+    {"id": "c1_6", "level": "C1", "topic": "linking", "prompt": "__ the heavy traffic, we arrived on time.", "options": ["Although", "Despite", "However", "Even"], "answer": "Despite"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "_note": "Türkçe konuşanların İngilizcede sık yaptığı hatalar. Öğretmen bu kalıpları özellikle takip eder. 'category' alanı hata defterindeki kategoriyle aynıdır.",
+  "errors": [
+    {"category": "articles", "pattern": "a / an / the eksik ya da yanlış", "wrong": "I am student.", "right": "I am a student.", "why_tr": "Türkçede artikel olmadığı için 'a/an/the' unutulur."},
+    {"category": "present_perfect", "pattern": "Geçmiş zaman ifadesiyle present perfect", "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "why_tr": "Türkçede '-dı' ve '-mış' bu ayrımı tam karşılamaz. Zaman belliyse Past Simple kullanılır."},
+    {"category": "present_perfect", "pattern": "have + V2", "wrong": "I have went there.", "right": "I have gone there.", "why_tr": "have/has'ten sonra fiilin 3. hali (V3) gelir."},
+    {"category": "third_person_s", "pattern": "he/she/it ile -s unutulması", "wrong": "She work in a bank.", "right": "She works in a bank.", "why_tr": "Türkçede fiil çekimi farklı işler; 3. tekil şahıstaki -s kolayca atlanır."},
+    {"category": "agree", "pattern": "I am agree", "wrong": "I am agree with you.", "right": "I agree with you.", "why_tr": "'Katılıyorum' sıfat gibi düşünülür ama 'agree' bir fiildir; 'am' gerekmez."},
+    {"category": "prepositions", "pattern": "in / on / at karışıklığı", "wrong": "I was born at 1995.", "right": "I was born in 1995.", "why_tr": "Türkçedeki '-de/-da' eki üçünün de yerine geçer."},
+    {"category": "word_order", "pattern": "Fiilin sona konması", "wrong": "I every day coffee drink.", "right": "I drink coffee every day.", "why_tr": "Türkçe özne-nesne-fiil, İngilizce özne-fiil-nesne sıralıdır."},
+    {"category": "gender_pronoun", "pattern": "he / she karışıklığı", "wrong": "My sister is a doctor. He is busy.", "right": "My sister is a doctor. She is busy.", "why_tr": "Türkçede 'o' kişinin cinsiyetini göstermez."},
+    {"category": "make_do", "pattern": "make / do karışıklığı", "wrong": "I make my homework.", "right": "I do my homework.", "why_tr": "İkisi de Türkçede 'yapmak' olarak çevrilir."},
+    {"category": "plural", "pattern": "Sayıdan sonra çoğul eki", "wrong": "I have two brother.", "right": "I have two brothers.", "why_tr": "Türkçede sayıdan sonra çoğul eki gelmez (iki kardeş), İngilizcede gelir."},
+    {"category": "pronunciation_th", "pattern": "th sesi", "wrong": "tree (three demek isterken)", "right": "three /θriː/", "why_tr": "Türkçede 'th' sesi yok; dil dişlerin arasına konmalı."},
+    {"category": "pronunciation_w_v", "pattern": "w ve v karışıklığı", "wrong": "vine (wine demek isterken)", "right": "wine /waɪn/", "why_tr": "Türkçede 'w' sesi yok; dudaklar yuvarlak olmalı."}
+  ]
+}
